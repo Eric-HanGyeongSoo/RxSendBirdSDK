@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.swift_version = '5.2'
     s.source_files = 'RxSendBirdSDK/**/*.{swift}'
     
-    s.dependency 'RxSwift', '~> 5'
+    s.dependency 'RxSwift', '~> 6'
     s.dependency 'RxCocoa', '~> 5'
     s.dependency 'SendBirdSDK', '~> 3'
 
