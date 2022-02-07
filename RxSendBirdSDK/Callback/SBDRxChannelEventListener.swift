@@ -63,7 +63,7 @@ public class SBDRxChannelEventListener: NSObject {
   
   private let tuPublisher = PublishSubject<SBDRxChannelEventResult>()
 
-  override init() {
+  public override init() {
     super.init()
     SBDMain.add(self, identifier: NSStringFromClass(type(of: self)))
   }
